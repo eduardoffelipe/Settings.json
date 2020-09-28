@@ -1,0 +1,119 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  
+      // Define o tema do VSCode
+      "workbench.colorTheme": "Dracula",
+    
+      // Configura tamanho e família da fonte
+      "editor.fontSize": 18,
+      "editor.lineHeight": 24,
+      "editor.fontFamily": "Fira Code",
+      "editor.fontLigatures": true,
+      "explorer.compactFolders": false,
+      
+      // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+      "editor.rulers": [80, 120],
+      "editor.formatOnSave": false,
+    
+
+      "[javascript]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+        },
+      },
+      "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+        }
+      },
+      "[typescript]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+        },
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+      },
+      "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true,
+        },
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+      },
+    
+      "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        ".prettierrc": "json"
+      },
+
+      // Aplica um sinal visual na esquerda da linha selecionada
+      "editor.renderLineHighlight": "gutter",
+    
+      // Aumenta a fonte do terminal
+      "terminal.integrated.fontSize": 15,
+    
+      // Define o tema dos ícones na sidebar
+      "workbench.iconTheme": "material-icon-theme",
+      "workbench.startupEditor": "newUntitledFile",
+      "editor.tabSize": 2,
+      "window.zoomLevel": 0,
+      "extensions.ignoreRecommendations": true,
+      "emmet.syntaxProfiles": {
+        "javascript": "jsx",
+      },
+      "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+      },
+      "javascript.updateImportsOnFileMove.enabled": "never",
+      "gitlens.codeLens.recentChange.enabled": false,
+      "gitlens.codeLens.authors.enabled": false,
+      "gitlens.codeLens.enabled": false,
+      "breadcrumbs.enabled": true,
+      "git.enableSmartCommit": true,
+      "editor.parameterHints.enabled": false,
+      "typescript.updateImportsOnFileMove.enabled": "never",
+      "terminal.integrated.shell.osx": "/bin/zsh",
+      "explorer.confirmDragAndDrop": false,
+      "liveshare.featureSet": "insiders",
+      "explorer.confirmDelete": false,
+    
+      "typescript.tsserver.log": "verbose",
+      "javascript.suggest.autoImports": true,
+      "typescript.suggest.autoImports": true,
+      "workbench.activityBar.visible": true,
+      "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+      },
+      "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+      },
+      "editor.formatOnPaste": false,
+      "editor.formatOnType": false,
+      "material-icon-theme.folders.theme": "specific",
+      "material-icon-theme.folders.associations": {
+        "infra":"app",
+        "entities":"class",
+        "domain": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations":"core",
+        "dtos":"typescript",
+        "fakes":"mock",
+        "websockets":"pipe",
+        "protos": "pipe",
+        "grpc": "pipe",
+        "providers": "include",
+        "subscribers": "messages",
+        "useCases": "controller",
+        "kafka": "scripts",
+        "mappers": "meta",
+        "_shared": "shared",
+        "eslint-config": "tools",
+      }
+    }
